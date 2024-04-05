@@ -35,13 +35,13 @@ export const RestaurantMenu = () => {
   }
 
   const {name, cuisines, costForTwoMessage } =
-    resinfo?.cards[4]?.card?.card?.info;
+    resinfo?.cards[2]?.card?.card?.info;
   // const { itemCards } =
   //   resinfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card.card;
   // console.log(resinfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
 
   const categories =
-    resinfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+    resinfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
       (c) =>
         c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
