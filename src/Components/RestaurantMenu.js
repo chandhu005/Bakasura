@@ -35,7 +35,7 @@ export const RestaurantMenu = () => {
   }
 
   const {name, cuisines, costForTwoMessage } =
-    resinfo?.cards[0]?.card?.card?.info;
+    resinfo?.cards[4]?.card?.card?.info;
   // const { itemCards } =
   //   resinfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card.card;
   // console.log(resinfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
